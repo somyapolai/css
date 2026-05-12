@@ -1,0 +1,32 @@
+* {
+    font-family: monospace;
+}
+/* (*) use for all also universal */
+body {
+    font-size: 22px;
+}
+p{
+    color: brown!important;
+}
+p{
+    color: chocolate;
+}
+/* first css look first line then next {it work up to down}
+   but i use (!important) so its go direct to imp-one {but use it i need}*/
+h1, h2{
+    color: blueviolet;
+}
+/* if i remove {,} from h1 and h2 then it will try to find h2 whice is inside  h1 */
+p span{
+    text-transform: capitalize;
+    color: gold;
+}
+/* use class instentof this */
+.gry{
+    color: gray;
+}
+#one{
+    color: blue;
+}
+
+/* id>class>tag  */
