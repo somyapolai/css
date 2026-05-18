@@ -1,0 +1,61 @@
+/* box module */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h2 {
+    text-align: center;
+    padding: 5%;
+}
+/* margin is top, buttum, left, right in equaly*/
+/* padding is same way margin but padding is in side of marging */
+/* box-sizing: content-box; is use for calulate inner box only not
+   other like pading or margin */
+.gogo {
+    font-size: 1.5rem;
+    padding: 1.5em;
+    border: 2px dashed  red;
+    margin: 1.5em 1.7em 1.5em;
+    /* margin: top (left,right) bottom
+    or margin: top right bottom left
+    or margin: (top,bottom)(right,left)
+    
+    same for padding */
+    outline: solid green;
+    outline-offset: 12px rgb(17, 0, 251);
+    /* idk why this not working */
+
+}
+
+/* .gogo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1 rem;
+    margin-right: 1 rem;
+}
+    or
+    
+    .gogo{
+    margin: 1rem;}
+*/
+.gry{
+    border: 2px dashed red;
+    /* line is missing when i put doubble */
+    border-top: 3px solid green;
+    border-right: 5px dotted blue;
+    padding: 10%;
+}
+.okok{
+    margin: 3rem auto;
+    /* auto use for center */
+    height: 28px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 25px;
+    outline: 3px solid grey;
+    outline-offset: 0.25rem;
+
+    /* for butten */
+}
