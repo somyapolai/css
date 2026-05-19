@@ -1,0 +1,35 @@
+/* 
+Typography is the way that
+is arrange and presented.
+*/
+
+body{
+    padding: 15%;
+    font-size: 100%;
+    color: purple;
+}
+
+input, button {
+    font: inherit;
+}
+
+p {
+    text-decoration: none;
+    /* this is use for chaning yhe text style or line */
+    text-align: justify;
+    /* line style */
+    text-indent: 2em;
+    /* make line centre */
+    line-height: 1.5em;
+    /* make distance in line */
+    letter-spacing: 0.01em;
+    /* make space in words */
+    font-weight: lighter;
+    /* use for character highliting more */
+    font-style: italic;
+    /* use for character  */
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif; /*commonly use*/
+    /* other type of style and we can dowload from font.google.com*/
+    
+}
