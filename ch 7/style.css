@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides&display=swap');
+
+body {
+    padding: 10%;
+    font-size: none;
+    font-family: "Playwrite GB J Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    /* use for remove underlines */
+    cursor: pointer;
+    color: #000;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover, a:focus {
+    color: dodgerblue;
+    opacity: 0.5;
+    /* opacity: use for how bright is your coloure */
+}
+/* when we going to link that change is hover */
+/* you can change link by using tab butten in focus */
+a:active {
+    color: red;
+}
+/* when we click and hold the link that change is active */

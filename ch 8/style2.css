@@ -1,0 +1,39 @@
+body {
+    padding: 5% 10%;
+    font-size: 1.2rem;
+}
+ol {
+    list-style-type: none;
+    /* it change list style */
+    /* list-style-type: disc; (this use for dot line in {ol} )*/
+}
+
+ul {
+    list-style-type: square;
+    /* it change the circle dot to sq dot */
+    text-align: center;
+    /* text go to center */
+    list-style-type: outside;
+    /* it change list style to {ol} list */
+    line-height: 1.6;
+    /* distance of two  list element */
+    list-style-type: url(../images/checkmark.png);
+    /* the img show in points areas */
+    list-style: square url(img.png) inside;
+    /* if img not show then sq show */
+    /* use inside so dot are join with text */
+}
+
+ul li:nth-child(even) {
+    color: red;
+}
+/* only 2 line is change we can use odd,even,that spacifice num */
+
+ul ::marker{
+    color: hsla(307, 100%, 51%, 0.872);
+    font-family: fantasy;
+    font-size: 1em;
+    content: "only$5>> ";
+    /* it change dot to some content */
+}
+/* it change the marker area only */
