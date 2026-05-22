@@ -53,3 +53,17 @@ li a:focus {
 li:last-child a {
     border-radius: 0 0 2rem 2rem;
 }
+
+jaja {
+    margin: 3rem auto;
+    /* auto use for center */
+    height: 28px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 25px;
+    outline: 3px solid grey;
+    outline-offset: 0.25rem;
+
+    /* for butten */
+}
