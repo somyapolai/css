@@ -1,0 +1,47 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+}
+
+p, div{
+    font-size: 30px;
+}
+
+.left {
+    float: left;
+}
+/* block and left are in same class (class="block left")\
+   The CSS float property positions an element on the 
+   left or right side of its container, pushing it to 
+   the edge so that text and inline elements wrap 
+   smoothly around it
+*/
+
+.right {
+    float: right;
+    margin-right: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+/* the line start after Flote block */
+section {
+    background-color: bisque;
+    border: 1px solid #333;
+    overflow: auto;
+    /* to fix block with section or we can use :- */
+    /* display: flow-root; */
+}
