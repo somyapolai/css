@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+
+body{
+    min-height: 100vh;
+}
+/* 100vh use for mobile phone full screen length */
+
+/* use % not vw  */
+h1 {
+    font-size: 2rem;
+    padding: 0.5em;
+    border: 2px dashed red;
+    background-color: chartreuse;
+    width: 50%
+}
+/* first it take 50% from header then it take 50% from h1 in total its is 25% */
+main {
+    font-size: 0.9rem;
+    width: 100%;
+    background-color: rgba(230, 32, 14, 0.369);
+}
+/* use % not vw bcz its can show horigental scrole bar */
+p {
+    font-size: 1em;
+    width: 50ch;
+}
+/* 50ch use for chracter per line */
+
+/* 1rem is defult size of web brouser */
+
+/*
+1 rem ---> 16px as defult
+n rem ---> (16 x n)px
+
+1 em ---> 16px
+n em ---> (16 x n)px
+
+root element is 16px
+rem parent element is you put (n x 16)px
+then child element is (m x n x 16)px
+em always in side of rem
+if set you set n rem. then n rem act as a defult
+
+ex:- if you set 2 rem (32px)
+     then you set 2 em (32 x 2)px
+ */
