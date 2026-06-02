@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    text-align: center;
+}
+
+.Columns {
+    margin: 0;
+/* column-count: 4; */
+/* It change line to columns */
+/* column-width: 25px; */
+columns: 4 100px;
+/* number of coloumns and size of it */
+/* {columns: (num of coloumns) (num of px per columns)} */
+column-rule: 1px solid #333;
+/* size of line, solid with coloure */
+/* {column-rule: (num of px) (solid) (num of colours);} */
+column-gap: 10px;
+/* gape between two column */
+}
+
+.Columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1rem;
+    break-inside: avoid;
+    /* to not devide different */
+}
+
+.Columns .mid {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+    /* take the area and ignore the column */
+}
+
+.line {
+    white-space: nowrap;
+    /* the line did not break */
+}
